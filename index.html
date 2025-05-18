@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minecraft Server - 4chan style</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10pt;
+            color: #800000;
+        }
+        
+        body {
+            background-color: #FFFFEE;
+            margin: 0;
+            padding: 0;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        #doc {
+            margin: 0 auto;
+            width: 1000px;
+        }
+        
+        #header {
+            background-color: #EEAA88;
+            padding: 5px;
+            border-bottom: 1px solid #800000;
+        }
+        
+        #logo {
+            font-weight: bold;
+            font-size: 14pt;
+        }
+        
+        #topbar {
+            background-color: #FFEEDD;
+            padding: 3px 5px;
+            border-bottom: 1px solid #800000;
+        }
+        
+        .board {
+            background-color: #FFEEDD;
+            margin: 5px 0;
+            border: 1px solid #800000;
+        }
+        
+        .board-title {
+            background-color: #EEAA88;
+            padding: 3px 5px;
+            font-weight: bold;
+            border-bottom: 1px solid #800000;
+        }
+        
+        .board-content {
+            padding: 5px;
+        }
+        
+        .post {
+            margin-bottom: 10px;
+            padding: 5px;
+            background-color: #F0E0D6;
+            border: 1px solid #D9BFB7;
+        }
+        
+        .post-header {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .post-body {
+            line-height: 1.4;
+        }
+        
+        .post-image {
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 5px;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        #footer {
+            text-align: center;
+            padding: 5px;
+            font-size: 8pt;
+            color: #800000;
+            border-top: 1px solid #800000;
+            margin-top: 10px;
+        }
+        
+        form {
+            margin: 5px 0;
+        }
+        
+        input, textarea, select {
+            border: 1px solid #800000;
+            background-color: #FFFFEE;
+            padding: 2px;
+        }
+        
+        .button {
+            background-color: #EEAA88;
+            border: 1px solid #800000;
+            padding: 2px 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="doc">
+        <div id="header">
+            <span id="logo">MINECRAFT SERVER</span>
+        </div>
+        
+        <div id="topbar">
+            <a href="#about">About</a> - 
+            <a href="#faqs">FAQs</a> - 
+            <a href="#links">Links</a> - 
+            <a href="#donate">Donate</a>
+        </div>
+        
+        <!-- About Board -->
+        <div class="board" id="about">
+            <div class="board-title">About</div>
+            <div class="board-content">
+                <div class="post">
+                    <div class="post-header">Welcome to our Minecraft Server</div>
+                    <div class="post-body">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/150" alt="Server Screenshot" width="150" height="150">
+                        </div>
+                        <p>This is a vanilla-style Minecraft server with a few quality-of-life plugins. We've been running since 2012 and have a friendly community of builders and explorers.</p>
+                        <p><strong>Server IP:</strong> mc.example.com</p>
+                        <p><strong>Version:</strong> 1.20.1</p>
+                        <p><strong>Rules:</strong> No griefing, no cheating, be respectful to other players.</p>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                
+                <div class="post">
+                    <div class="post-header">Server Features</div>
+                    <div class="post-body">
+                        <ul>
+                            <li>Survival mode with land claiming</li>
+                            <li>Monthly building contests</li>
+                            <li>Economy system with player shops</li>
+                            <li>Regular world backups</li>
+                            <li>Active staff team</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FAQs Board -->
+        <div class="board" id="faqs">
+            <div class="board-title">FAQs</div>
+            <div class="board-content">
+                <div class="post">
+                    <div class="post-header">How do I join the server?</div>
+                    <div class="post-body">
+                        Simply connect to mc.example.com using Minecraft Java Edition version 1.20.1. No whitelist is required.
+                    </div>
+                </div>
+                
+                <div class="post">
+                    <div class="post-header">How do I claim land?</div>
+                    <div class="post-body">
+                        Use a golden shovel to select two corners of the area you want to claim, then type /claim create. You get 100 claim blocks when you first join, and earn more by playing.
+                    </div>
+                </div>
+                
+                <div class="post">
+                    <div class="post-header">Are there any banned items?</div>
+                    <div class="post-body">
+                        TNT and other griefing tools are restricted. See the full list with /rules in-game.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Links Board -->
+        <div class="board" id="links">
+            <div class="board-title">Links</div>
+            <div class="board-content">
+                <div class="post">
+                    <div class="post-body">
+                        <ul>
+                            <li><a href="https://discord.gg/example" target="_blank">Discord Server</a></li>
+                            <li><a href="https://twitter.com/mcserver" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.planetminecraft.com/server/example" target="_blank">Planet Minecraft Page</a></li>
+                            <li><a href="https://minecraft-statistic.net/en/server/mc.example.com" target="_blank">Server Statistics</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Donate Board -->
+        <div class="board" id="donate">
+            <div class="board-title">Donate</div>
+            <div class="board-content">
+                <div class="post">
+                    <div class="post-header">Support the Server</div>
+                    <div class="post-body">
+                        <p>Donations help cover server costs and keep us running ad-free. Donators receive these benefits:</p>
+                        <ul>
+                            <li>Special in-game tag</li>
+                            <li>Extra claim blocks</li>
+                            <li>Access to cosmetic items</li>
+                            <li>Priority support</li>
+                        </ul>
+                        
+                        <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                            <input type="hidden" name="business" value="donations@example.com">
+                            <input type="hidden" name="item_name" value="Minecraft Server Donation">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <p>
+                                <select name="amount">
+                                    <option value="5.00">$5 - Basic</option>
+                                    <option value="10.00">$10 - Advanced</option>
+                                    <option value="20.00">$20 - Premium</option>
+                                    <option value="50.00">$50 - Legendary</option>
+                                </select>
+                                <input type="submit" value="Donate via PayPal" class="button">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <p>All trademarks and copyrights on this page are owned by their respective parties.</p>
+            <p>Minecraft is a trademark of Mojang Studios.</p>
+            <p>This site is not affiliated with 4chan or Mojang.</p>
+        </div>
+    </div>
+</body>
+</html>
